@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public Collider2D playerCollider;
     bool facingRight = true;
     //public Animator animator;
-    public float runSpeed = 40f;
+   // public float runSpeed = 40f;
      public bool moveleft, moveRight, Jump;
 
 
