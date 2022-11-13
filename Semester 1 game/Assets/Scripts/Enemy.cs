@@ -18,7 +18,7 @@ public class Enemy : MonoBehaviour
         transform.Translate(Vector2.right * enemyMoveSpeed * Time.deltaTime);
     }
 
-    public void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D other)
     {
 
         if (other.gameObject.tag == "NPCTurnRight")

@@ -1966,7 +1966,7 @@ GameObject:
   - component: {fileID: 1183244672}
   m_Layer: 0
   m_Name: Right
-  m_TagString: NPCTurnRight
+  m_TagString: NPCTurnLeft
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1999,7 +1999,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.5762801}
+  m_Offset: {x: 0, y: -0.594946}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2010,7 +2010,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2.1525602}
+  m_Size: {x: 1, y: 2.189892}
   m_EdgeRadius: 0
 --- !u!1 &1204063724
 GameObject:
@@ -2322,7 +2322,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.019128323, y: -0.0074014664}
+  m_Offset: {x: -0.004499316, y: -0.0074014664}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -2333,7 +2333,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.8937316, y: 0.55572414}
+  m_Size: {x: 0.91260505, y: 0.55572414}
   m_EdgeRadius: 0
 --- !u!50 &1265442266
 Rigidbody2D:
@@ -2687,7 +2687,7 @@ GameObject:
   - component: {fileID: 1451922931}
   m_Layer: 0
   m_Name: Left
-  m_TagString: NPCTurnLeft
+  m_TagString: NPCTurnRight
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
