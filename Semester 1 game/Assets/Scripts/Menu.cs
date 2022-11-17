@@ -13,7 +13,7 @@ public class Menu : MonoBehaviour
         SceneManager.LoadScene("Marcus");
     }
 
-   /* public void ControlsMenu()
+    public void ControlsMenu()
     {
         SceneManager.LoadScene("Controls");
     }
@@ -21,7 +21,7 @@ public class Menu : MonoBehaviour
     {
         SceneManager.LoadScene("Menu");
     }
-    */
+    
 
     public void QuitTheGame()
     {
