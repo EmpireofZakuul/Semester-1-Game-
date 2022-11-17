@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerHealth : MonoBehaviour
+public class Win : MonoBehaviour
 {
-    public bool dead;
     // Start is called before the first frame update
     void Start()
     {
-        dead = false;
+        
     }
 
     // Update is called once per frame
@@ -17,22 +16,14 @@ public class PlayerHealth : MonoBehaviour
     {
         
     }
+
     public void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!dead)
-        {
-            if (collision.GetComponent<Enemy>())
+        
+        
+            if (collision.gameObject.tag == "Player")
             {
-                Destroy(transform.parent.gameObject);
-                Die();
+                 SceneManager.LoadScene("Win");
             }
-        }
-
-    }
-
-    public void Die()
-    {
-        dead = true;
-        SceneManager.LoadScene("Lose");
     }
 }
