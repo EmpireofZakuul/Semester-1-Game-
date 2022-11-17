@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerPickUp : MonoBehaviour
 {
     public Collectables collect;
+    public int add = 1;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +21,7 @@ public class PlayerPickUp : MonoBehaviour
    {
        if(collision.gameObject.tag == "Collectables")
        {
-           collect.counter++;
+           collect.counter += add;
             Destroy(collision.gameObject);
        }
        
