@@ -21,6 +21,7 @@ public class PlayerPickUp : MonoBehaviour
        if(collision.gameObject.tag == "Collectables")
        {
            collect.counter++;
+            Destroy(collision.gameObject);
        }
        
    }
