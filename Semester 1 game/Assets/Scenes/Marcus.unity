@@ -5263,7 +5263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d7cf64b1b30c22438234e1c4c640346, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSpeed: 3
+  playerSpeed: 4
   playerJumpHeight: 12
   JumpLayer:
     serializedVersion: 2
@@ -5334,7 +5334,7 @@ SpriteRenderer:
   m_SortingLayerID: -2118257175
   m_SortingLayer: 5
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: f2fa0da7499fcbb489a1a8ff87fa9cbe, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 64916242328799f4c8719ca536ccd5d0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
