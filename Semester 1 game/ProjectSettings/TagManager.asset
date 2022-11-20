@@ -8,6 +8,7 @@ TagManager:
   - NPCTurnRight
   - NPCTurnLeft
   - Collectables
+  - Ground
   layers:
   - Default
   - TransparentFX
