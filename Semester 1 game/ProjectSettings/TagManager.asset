@@ -9,6 +9,7 @@ TagManager:
   - NPCTurnLeft
   - Collectables
   - Ground
+  - CollectablesCandyCane
   layers:
   - Default
   - TransparentFX
