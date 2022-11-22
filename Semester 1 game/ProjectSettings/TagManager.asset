@@ -10,6 +10,8 @@ TagManager:
   - Collectables
   - Ground
   - CollectablesCandyCane
+  - GameMusic
+  - MusicManager
   layers:
   - Default
   - TransparentFX
