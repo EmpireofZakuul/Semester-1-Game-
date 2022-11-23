@@ -21,7 +21,7 @@ public class Menu : MonoBehaviour
 
     public void Gamelevel()
     {
-        SceneManager.LoadScene("Marcus");
+        SceneManager.LoadScene("Level 2");
     }
 
     public void ControlsMenu()
