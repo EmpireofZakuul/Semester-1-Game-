@@ -13,6 +13,7 @@ public class PauseGame : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Time.timeScale = 1f;
         playButton.SetActive(false);
         pauseButton.SetActive(true);
          pausePanel.SetActive(false);
