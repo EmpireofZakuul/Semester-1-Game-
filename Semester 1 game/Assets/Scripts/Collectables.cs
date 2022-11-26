@@ -8,6 +8,7 @@ public class Collectables : MonoBehaviour
 {
     public TextMeshProUGUI counterText;
     public int counter = 0;
+   // public Sprite sprite;
     // Start is called before the first frame update
     void Start()
     {
