@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerPickUp : MonoBehaviour
 {
+    private GameObject collectOff;
     public Collectables collect;
     //public int add = 1;
     // Start is called before the first frame update
@@ -25,7 +26,8 @@ public class PlayerPickUp : MonoBehaviour
        {
            //collect.counter += add;
             collect.counter +=1;
-            Destroy(this.gameObject);
+            gameObject.SetActive(false);
+            //Destroy(this.gameObject);
             //Debug.Log(collect);
        }
 
