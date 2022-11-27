@@ -12,6 +12,9 @@ TagManager:
   - CollectablesCandyCane
   - GameMusic
   - MusicManager
+  - Death
+  - SceneManager
+  - PlayerCollider
   layers:
   - Default
   - TransparentFX

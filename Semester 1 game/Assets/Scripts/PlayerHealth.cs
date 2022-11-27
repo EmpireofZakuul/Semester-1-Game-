@@ -6,10 +6,13 @@ using UnityEngine.SceneManagement;
 public class PlayerHealth : MonoBehaviour
 {
     public bool dead;
+    public int currentSceneIndex;
     // Start is called before the first frame update
     void Start()
     {
         dead = false;
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
     }
 
     // Update is called once per frame
@@ -26,13 +29,21 @@ public class PlayerHealth : MonoBehaviour
                 Destroy(transform.parent.gameObject);
                 Die();
             }
+
+            if (collision.gameObject.tag == "Death")
+            {
+                SceneManager.LoadScene("Lose");
+            }
         }
+
+       
 
     }
 
     public void Die()
     {
         dead = true;
+        
         SceneManager.LoadScene("Lose");
     }
 }

@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Win : MonoBehaviour
 {
+    public int currentSceneIndex;
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +24,9 @@ public class Win : MonoBehaviour
         
             if (collision.gameObject.tag == "Player")
             {
-                 SceneManager.LoadScene("Win");
+                currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+                PlayerPrefs.SetInt("SavedScene", currentSceneIndex);
+                SceneManager.LoadScene("Win");
             }
     }
 }

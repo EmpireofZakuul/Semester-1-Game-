@@ -19,20 +19,23 @@ public class PlayerPickUp : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
    {
-       if(collision.gameObject.tag == "Collectables")
+       //if(collision.gameObject.tag == "Collectables")
+       if (collision.gameObject.tag == "PlayerCollider")
+                
        {
            //collect.counter += add;
-            collect.counter ++;
-            Destroy(collision.gameObject);
-            Debug.Log(collect);
+            collect.counter +=1;
+            Destroy(this.gameObject);
+            //Debug.Log(collect);
        }
 
-       if(collision.gameObject.tag == "CollectablesCandyCane")
+       /*if(collision.gameObject.tag == "CollectablesCandyCane")
        {
            //collect.counter += add;
             collect.counter ++;
             Destroy(collision.gameObject);
        }
+       */
        
    }
 }

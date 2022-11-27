@@ -21,7 +21,7 @@ public class DeathZone : MonoBehaviour
     {
         
         
-            if (collision.gameObject.tag == "Player")
+            if (collision.gameObject.tag == "Death")
             {
                  SceneManager.LoadScene("Lose");
             }
