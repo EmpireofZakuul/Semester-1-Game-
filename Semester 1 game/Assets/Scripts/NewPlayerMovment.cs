@@ -20,12 +20,13 @@ public class NewPlayerMovment : MonoBehaviour
     public float P_BigJumpForce;
     public bool P_isGrounded;
     private bool P_isDead = false;
+    public  Animator playerAnimation;
 
     private void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
 
-       // P_Anim = GetComponent<Animator>();
+        playerAnimation = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
     }
 
@@ -46,24 +47,24 @@ public class NewPlayerMovment : MonoBehaviour
     {
         PMovesRight = true;
         PMovesLeft = false;
-       // P_Anim.SetBool("IsRunning", true);
-        //P_Anim.SetBool("IsIdle", false);
+        playerAnimation.SetBool("Moving", true);
+        //playerAnimation.SetBool("Moving", false);
     }
 
     public void MoveLeft()
     {
         PMovesLeft = true;
         PMovesRight = false;
-        //P_Anim.SetBool("IsRunning", true);
-       // P_Anim.SetBool("IsIdle", false);
+        playerAnimation.SetBool("Moving", true);
+        //playerAnimation.SetBool("Moving", false);
     }
 
     public void StopMoving()
     {
         PMovesLeft = false;
         PMovesRight = false;
-       // P_Anim.SetBool("IsRunning", false);
-        //P_Anim.SetBool("IsIdle", true);
+       // playerAnimation.SetBool("Moving", true);
+        playerAnimation.SetBool("Moving", false);
     }
 
 
