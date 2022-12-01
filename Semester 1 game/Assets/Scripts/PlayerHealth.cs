@@ -26,7 +26,7 @@ public class PlayerHealth : MonoBehaviour
         {
             if (collision.GetComponent<Enemy>())
             {
-                Destroy(transform.parent.gameObject);
+               // Destroy(transform.parent.gameObject);
                 Die();
             }
 
