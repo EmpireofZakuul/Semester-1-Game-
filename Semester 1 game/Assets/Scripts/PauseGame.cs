@@ -53,6 +53,11 @@ public class PauseGame : MonoBehaviour
         SceneManager.LoadScene("Menu");
     }
 
+    public void Map()
+    {
+        SceneManager.LoadScene("MapScene");
+    }
+
     /*void PauseTheGame()
     {
         if (gameIsPaused)
