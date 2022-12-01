@@ -21,7 +21,7 @@ public class Menu : MonoBehaviour
 
     public void Gamelevel()
     {
-        SceneManager.LoadScene("Level 2");
+        SceneManager.LoadScene("MapScene");
     }
 
     public void ControlsMenu()

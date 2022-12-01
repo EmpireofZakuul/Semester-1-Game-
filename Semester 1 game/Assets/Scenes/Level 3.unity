@@ -4534,7 +4534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   musicObject: {fileID: 0}
-  sliderVolume: {fileID: 0}
+  sliderVolume: {fileID: 1306821945}
 --- !u!4 &493507057
 Transform:
   m_ObjectHideFlags: 0
@@ -10759,7 +10759,7 @@ GameObject:
   - component: {fileID: 870243978}
   - component: {fileID: 870243979}
   m_Layer: 5
-  m_Name: Slider (1)
+  m_Name: EffectsSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14254,7 +14254,7 @@ GameObject:
   - component: {fileID: 1306821944}
   - component: {fileID: 1306821945}
   m_Layer: 5
-  m_Name: Slider (2)
+  m_Name: MusicSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
