@@ -4,45 +4,66 @@ using UnityEngine;
 
 public class CameraFollowPlayer : MonoBehaviour
 {
-    public Transform player;
+    // public Transform player;
+    // public float yOffset = 1f;
+
     //public float followSpeed = 2f;
     //public float smoothSpeed = 10f;
-    public float yOffset = 1f;
+
+
+    private Vector3 velocity = Vector3.zero;
+    public Transform player;
+    public float smoothTime = 0.3f;
     
 
-    /*[Header("Camera")]
-    public Transform targetObject;
-    public float smoothSpeed = 10f;
-    public float yOffset = 1f;
-    public Vector3 cameraOffset;
-    */
+ 
+    
     
 
     void Update()
     {
-        transform.position = new Vector3(player.position.x, yOffset, transform.position.z);
-      // Vector3 newPosition = new Vector3(player.position.x, player.position.y + yOffset, -10f );
-      // transform.position = Vector3.Lerp(transform.position,newPosition,followSpeed * Time.deltaTime);
+        // transform.position = new Vector3(player.position.x, yOffset, transform.position.z);
+
+
+
+        // Vector3 newPosition = new Vector3(player.position.x, player.position.y + yOffset, -10f );
+        // transform.position = Vector3.Lerp(transform.position,newPosition,followSpeed * Time.deltaTime);
         // transform.postion means the position of the camera in world space
         // we are taking the cameras position and we are equaling it to the players position in world space on the x and y axis
+      
     }
-    
+ 
 
     void LateUpdate()
     {
-
-        /*Vector3 desiredCameraPosition = targetObject.position + yOffset;
-        Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredCameraPosition, smoothSpeed * Time.deltaTime);
-        transform.position = smoothedPosition;
+        
+    }
 
 
-        transform.LookAt(targetObject);
-       */ 
 
-      // Vector3 newPosition = new Vector3(player.position.x, player.position.y + yOffset, -20f );
-       //transform.position = Vector3.Slerp(transform.position,newPosition,followSpeed * Time.deltaTime);
-      
+     void FixedUpdate()
+      {
+        /* // calculate the target position
+         Vector3 desiredPosition = target.position + offset;
+
+         // limit the y position to between 0 and 2
+         desiredPosition.y = Mathf.Clamp(desiredPosition.y, 0f, 2f);
+
+         // smoothly move the camera to the desired position
+         Vector3 smoothedPosition = Vector3.Lerp(transform.position, desiredPosition, smoothSpeed);
+
+         // update the camera's position
+         transform.position = smoothedPosition;
+
+       */
+
+        Vector3 targetPosition = player.TransformPoint(new Vector3(1, 0, -10));
+        targetPosition.y = Mathf.Clamp(targetPosition.y, 0, 2);
+        transform.position = Vector3.SmoothDamp(transform.position, targetPosition, ref velocity, smoothTime);
+
 
     }
-    
+  
+
+
 }

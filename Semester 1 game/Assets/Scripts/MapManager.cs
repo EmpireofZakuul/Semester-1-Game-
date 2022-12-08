@@ -45,6 +45,10 @@ public class MapManager : MonoBehaviour
         level3PopUp.SetActive(true);
     }
 
+    public void Instructions()
+    {
+        SceneManager.LoadScene("Instructions");
+    }
     public void returnToMap()
     {
         level1PopUp.SetActive(false);
