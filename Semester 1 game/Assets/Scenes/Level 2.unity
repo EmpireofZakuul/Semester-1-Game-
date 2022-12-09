@@ -178,6 +178,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 1
@@ -909,6 +913,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 5
@@ -4523,7 +4531,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4a38fafbf2e004d418ecbcbdfc7c4ddf, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4627,6 +4635,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 2
@@ -13436,6 +13448,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 3
@@ -13560,6 +13576,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 6
@@ -15824,6 +15844,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 10
@@ -20350,6 +20374,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 7
@@ -20815,6 +20843,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 8
@@ -24670,6 +24702,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 9
@@ -24736,6 +24772,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3126380239636332101, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 4
