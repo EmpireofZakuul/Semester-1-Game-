@@ -22,6 +22,7 @@ public class NewPlayerMovment : MonoBehaviour
     private bool P_isDead = false;
     public  Animator playerAnimation;
     public AudioSource playerJump;
+    public AudioSource playerWalking;
 
     private void Start()
     {
@@ -30,6 +31,7 @@ public class NewPlayerMovment : MonoBehaviour
         playerAnimation = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
         playerJump = GetComponentInChildren<AudioSource>();
+        playerWalking = GetComponent<AudioSource>();
     }
 
     public void Jump()
@@ -51,6 +53,7 @@ public class NewPlayerMovment : MonoBehaviour
         PMovesRight = true;
         PMovesLeft = false;
         playerAnimation.SetBool("Moving", true);
+        playerWalking.Play();
         //playerAnimation.SetBool("Moving", false);
     }
 
@@ -59,6 +62,7 @@ public class NewPlayerMovment : MonoBehaviour
         PMovesLeft = true;
         PMovesRight = false;
         playerAnimation.SetBool("Moving", true);
+        playerWalking.Play();
         //playerAnimation.SetBool("Moving", false);
     }
 
@@ -66,8 +70,9 @@ public class NewPlayerMovment : MonoBehaviour
     {
         PMovesLeft = false;
         PMovesRight = false;
-       // playerAnimation.SetBool("Moving", true);
+        playerAnimation.SetBool("Moving", true);
         playerAnimation.SetBool("Moving", false);
+        playerWalking.Stop();
     }
 
 
@@ -88,11 +93,13 @@ public class NewPlayerMovment : MonoBehaviour
         {
             playerRigidbody.velocity = new Vector2(dirXRight * playerSpeed, playerRigidbody.velocity.y);
             //P_Anim.SetBool("IsRunning", true);
+           // playerWalking.Play();
         }
         if (PMovesLeft == true && P_isDead == false)
         {
             playerRigidbody.velocity = new Vector2(dirXLeft * playerSpeed, playerRigidbody.velocity.y);
-           // P_Anim.SetBool("IsRunning", true);
+            // P_Anim.SetBool("IsRunning", true);
+            //playerWalking.Play();
         }
 
 
