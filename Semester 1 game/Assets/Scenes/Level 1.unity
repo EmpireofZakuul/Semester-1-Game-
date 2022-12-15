@@ -6400,6 +6400,7 @@ MonoBehaviour:
   P_isGrounded: 0
   playerAnimation: {fileID: 0}
   playerJump: {fileID: 0}
+  playerWalking: {fileID: 0}
 --- !u!1 &572283809
 GameObject:
   m_ObjectHideFlags: 0
@@ -20433,7 +20434,7 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
-  m_RaycastPadding: {x: -20, y: -20, z: -20, w: -20}
+  m_RaycastPadding: {x: -50, y: -20, z: -20, w: -50}
   m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
