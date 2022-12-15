@@ -21,6 +21,7 @@ public class NewPlayerMovment : MonoBehaviour
     public bool P_isGrounded;
     private bool P_isDead = false;
     public  Animator playerAnimation;
+    public AudioSource playerJump;
 
     private void Start()
     {
@@ -28,6 +29,7 @@ public class NewPlayerMovment : MonoBehaviour
 
         playerAnimation = GetComponent<Animator>();
         playerSprite = GetComponent<SpriteRenderer>();
+        playerJump = GetComponentInChildren<AudioSource>();
     }
 
     public void Jump()
@@ -35,11 +37,12 @@ public class NewPlayerMovment : MonoBehaviour
         if (P_isGrounded == true)
         {
             playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, P_BigJumpForce);
+            playerJump.Play();
 
             //_Anim.SetTrigger("IsJumping");
-           // P_Anim.SetBool("IsRunning", false);
+            // P_Anim.SetBool("IsRunning", false);
 
-           // P_JumpSFX.Play();
+            // P_JumpSFX.Play();
         }
     }
 
@@ -77,6 +80,7 @@ public class NewPlayerMovment : MonoBehaviour
         if (Input.GetButtonDown("Jump") && P_isDead == false)
         {
             Jump();
+           
         }
         
         //checks that the player is not dead, and then 
