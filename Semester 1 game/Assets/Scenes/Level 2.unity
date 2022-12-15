@@ -6055,6 +6055,7 @@ MonoBehaviour:
   P_BigJumpForce: 12
   P_isGrounded: 0
   playerAnimation: {fileID: 0}
+  playerJump: {fileID: 0}
 --- !u!1 &569526990
 GameObject:
   m_ObjectHideFlags: 0
@@ -7145,6 +7146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collect: {fileID: 1694757203}
+  collectable: {fileID: 0}
 --- !u!1 &624843701
 GameObject:
   m_ObjectHideFlags: 0
@@ -22893,7 +22895,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1806639812}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.27, y: 0.04, z: 0}
+  m_LocalPosition: {x: -4.27, y: -0.015, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
