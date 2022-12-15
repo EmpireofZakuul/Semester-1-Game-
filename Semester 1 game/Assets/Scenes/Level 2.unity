@@ -134,6 +134,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 1192703}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -178,6 +182,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 1
@@ -187,6 +195,11 @@ PrefabInstance:
 --- !u!4 &1192702 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 1192701}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1192703 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 1192701}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &5552058
@@ -865,6 +878,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 76684240}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -913,6 +930,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 5
@@ -922,6 +943,11 @@ PrefabInstance:
 --- !u!4 &76684239 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 76684238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &76684240 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 76684238}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &84292736
@@ -2682,6 +2708,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 331019183426508430, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+      propertyPath: Loop
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6668729171793467841, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2730,6 +2760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6668729171793467852, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+      propertyPath: playerAnimation
+      value: 
+      objectReference: {fileID: 1796250827}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
 --- !u!1 &294341509
@@ -4587,6 +4621,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 437743384}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4635,6 +4673,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 2
@@ -4644,6 +4686,11 @@ PrefabInstance:
 --- !u!4 &437743383 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 437743382}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &437743384 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 437743382}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &439270526
@@ -6056,6 +6103,7 @@ MonoBehaviour:
   P_isGrounded: 0
   playerAnimation: {fileID: 0}
   playerJump: {fileID: 0}
+  playerWalking: {fileID: 0}
 --- !u!1 &569526990
 GameObject:
   m_ObjectHideFlags: 0
@@ -13428,6 +13476,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 898514266}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -13476,6 +13528,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 3
@@ -13485,6 +13541,11 @@ PrefabInstance:
 --- !u!4 &898514265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 898514264}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &898514266 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 898514264}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &911893904
@@ -13556,6 +13617,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 926752144}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -13604,6 +13669,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 6
@@ -13613,6 +13682,11 @@ PrefabInstance:
 --- !u!4 &926752143 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 926752142}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &926752144 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 926752142}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &936310085
@@ -15824,6 +15898,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 1124607784}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -15872,6 +15950,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 10
@@ -15881,6 +15963,11 @@ PrefabInstance:
 --- !u!4 &1124607783 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 1124607782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1124607784 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 1124607782}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1135961527
@@ -20354,6 +20441,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 1634740534}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -20402,6 +20493,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 7
@@ -20411,6 +20506,11 @@ PrefabInstance:
 --- !u!4 &1634740533 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 1634740532}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1634740534 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 1634740532}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1637361925
@@ -20823,6 +20923,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 1657183161}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -20871,6 +20975,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 8
@@ -20880,6 +20988,11 @@ PrefabInstance:
 --- !u!4 &1657183160 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 1657183159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1657183161 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 1657183159}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1659846938
@@ -22838,6 +22951,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1796250827 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 8811628897691744868, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+  m_PrefabInstance: {fileID: 269961040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1800348256
 GameObject:
   m_ObjectHideFlags: 0
@@ -24682,6 +24800,10 @@ PrefabInstance:
       propertyPath: collect
       value: 
       objectReference: {fileID: 1694757203}
+    - target: {fileID: 1644401661928620568, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: collectable
+      value: 
+      objectReference: {fileID: 1973948454}
     - target: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -24730,6 +24852,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 9
@@ -24739,6 +24865,11 @@ PrefabInstance:
 --- !u!4 &1973948453 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+  m_PrefabInstance: {fileID: 1973948452}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1973948454 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 1973948452}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1977117146
@@ -24800,6 +24931,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 3467385ea960144c8ad35632967de767, type: 3}
+    - target: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6238198425725373225, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
       propertyPath: m_Name
       value: Pumpkin 4

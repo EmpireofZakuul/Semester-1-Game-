@@ -21,6 +21,7 @@ public class NewPlayerMovment : MonoBehaviour
     public bool P_isGrounded;
     private bool P_isDead = false;
     public  Animator playerAnimation;
+
     public AudioSource playerJump;
     public AudioSource playerWalking;
 
