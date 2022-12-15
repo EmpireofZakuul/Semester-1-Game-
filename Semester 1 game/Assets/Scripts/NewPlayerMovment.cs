@@ -24,6 +24,8 @@ public class NewPlayerMovment : MonoBehaviour
 
     public AudioSource playerJump;
     public AudioSource playerWalking;
+    public AudioClip jump;
+    public AudioClip walk;
 
     private void Start()
     {
@@ -40,7 +42,7 @@ public class NewPlayerMovment : MonoBehaviour
         if (P_isGrounded == true)
         {
             playerRigidbody.velocity = new Vector2(playerRigidbody.velocity.x, P_BigJumpForce);
-            playerJump.Play();
+            playerJump.PlayOneShot(jump);
 
             //_Anim.SetTrigger("IsJumping");
             // P_Anim.SetBool("IsRunning", false);
@@ -74,6 +76,7 @@ public class NewPlayerMovment : MonoBehaviour
         playerAnimation.SetBool("Moving", true);
         playerAnimation.SetBool("Moving", false);
         playerWalking.Stop();
+        
     }
 
 

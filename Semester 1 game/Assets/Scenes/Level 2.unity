@@ -2712,6 +2712,10 @@ PrefabInstance:
       propertyPath: Loop
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4097394579846200293, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: c2f5b76a35081524fb1c5476c6d50378, type: 3}
     - target: {fileID: 6668729171793467841, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -6104,6 +6108,8 @@ MonoBehaviour:
   playerAnimation: {fileID: 0}
   playerJump: {fileID: 0}
   playerWalking: {fileID: 0}
+  jump: {fileID: 0}
+  walk: {fileID: 0}
 --- !u!1 &569526990
 GameObject:
   m_ObjectHideFlags: 0

@@ -2624,7 +2624,7 @@ PrefabInstance:
     - target: {fileID: 4097394579846200293, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 9f340fba4ee3e29458123ce1a0401d24, type: 3}
+      objectReference: {fileID: 8300000, guid: c2f5b76a35081524fb1c5476c6d50378, type: 3}
     - target: {fileID: 4097394579846200293, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -2681,6 +2681,10 @@ PrefabInstance:
       propertyPath: playerJump
       value: 
       objectReference: {fileID: 450518534}
+    - target: {fileID: 6668729171793467852, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+      propertyPath: playerWalking
+      value: 
+      objectReference: {fileID: 2145518030}
     - target: {fileID: 6668729171793467852, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: playerAnimation
       value: 
@@ -6401,6 +6405,8 @@ MonoBehaviour:
   playerAnimation: {fileID: 0}
   playerJump: {fileID: 0}
   playerWalking: {fileID: 0}
+  jump: {fileID: 0}
+  walk: {fileID: 0}
 --- !u!1 &572283809
 GameObject:
   m_ObjectHideFlags: 0
@@ -25667,5 +25673,10 @@ SpriteRenderer:
 --- !u!95 &2145518029 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 8811628897691744868, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+  m_PrefabInstance: {fileID: 269961040}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2145518030 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 331019183426508430, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
   m_PrefabInstance: {fileID: 269961040}
   m_PrefabAsset: {fileID: 0}

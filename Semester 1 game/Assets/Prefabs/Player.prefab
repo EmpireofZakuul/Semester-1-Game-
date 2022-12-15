@@ -227,6 +227,8 @@ MonoBehaviour:
   playerAnimation: {fileID: 0}
   playerJump: {fileID: 4097394579846200293}
   playerWalking: {fileID: 331019183426508430}
+  jump: {fileID: 8300000, guid: c2f5b76a35081524fb1c5476c6d50378, type: 3}
+  walk: {fileID: 8300000, guid: e60de75cb5dc34a4ab9a93d34e6f9b21, type: 3}
 --- !u!61 &6668729171793467855
 BoxCollider2D:
   m_ObjectHideFlags: 0
