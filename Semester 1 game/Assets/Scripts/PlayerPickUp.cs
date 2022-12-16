@@ -6,12 +6,13 @@ public class PlayerPickUp : MonoBehaviour
 {
     private GameObject collectOff;
     public Collectables collect;
-    public AudioSource collectable;
+   // public AudioSource collectable;
+   // public AudioClip collectSound;
     //public int add = 1;
     // Start is called before the first frame update
     void Start()
     {
-        collectable = GetComponent<AudioSource>();
+        //collectable = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,12 +22,13 @@ public class PlayerPickUp : MonoBehaviour
     }
     public void OnTriggerEnter2D(Collider2D collision)
    {
-       //if(collision.gameObject.tag == "Collectables")
-       if (collision.gameObject.tag == "PlayerCollider")
+        
+        //if(collision.gameObject.tag == "Collectables")
+        if (collision.gameObject.tag == "PlayerCollider")
                 
        {
             //collect.counter += add;
-            collectable.Play();
+            //collectable.PlayOneShot(collectSound);
             collect.counter +=1;
             gameObject.SetActive(false);
             

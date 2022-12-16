@@ -27,6 +27,10 @@ public class NewPlayerMovment : MonoBehaviour
     public AudioClip jump;
     public AudioClip walk;
 
+
+    public AudioSource collectable;
+    public AudioClip collectSound;
+
     private void Start()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
@@ -35,6 +39,8 @@ public class NewPlayerMovment : MonoBehaviour
         playerSprite = GetComponent<SpriteRenderer>();
         playerJump = GetComponentInChildren<AudioSource>();
         playerWalking = GetComponent<AudioSource>();
+
+        collectable = GetComponentInChildren<AudioSource>();
     }
 
     public void Jump()
@@ -132,5 +138,17 @@ public class NewPlayerMovment : MonoBehaviour
         {
             P_isGrounded = true;
         }
+    }
+
+
+
+    public void OnTriggerEnter2D(Collider2D collision)
+    {
+
+        if(collision.gameObject.tag == "Collectables")
+        { 
+            collectable.PlayOneShot(collectSound);
+        }
+
     }
 }
