@@ -2779,6 +2779,11 @@ PrefabInstance:
       objectReference: {fileID: 1796250827}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+--- !u!82 &269961041 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3966492256993955642, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+  m_PrefabInstance: {fileID: 269961040}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &294341509
 GameObject:
   m_ObjectHideFlags: 0
@@ -6119,6 +6124,8 @@ MonoBehaviour:
   playerWalking: {fileID: 0}
   jump: {fileID: 0}
   walk: {fileID: 0}
+  collectable: {fileID: 0}
+  collectSound: {fileID: 0}
 --- !u!1 &569526990
 GameObject:
   m_ObjectHideFlags: 0
@@ -7209,7 +7216,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collect: {fileID: 1694757203}
-  collectable: {fileID: 0}
 --- !u!1 &624843701
 GameObject:
   m_ObjectHideFlags: 0
@@ -21681,16 +21687,7 @@ MonoBehaviour:
   soundEffectAudioSource:
   - {fileID: 1796250828}
   - {fileID: 267939361}
-  - {fileID: 1192703}
-  - {fileID: 437743384}
-  - {fileID: 898514266}
-  - {fileID: 1977117148}
-  - {fileID: 76684240}
-  - {fileID: 926752144}
-  - {fileID: 1634740534}
-  - {fileID: 1657183161}
-  - {fileID: 1973948454}
-  - {fileID: 1124607784}
+  - {fileID: 269961041}
   - {fileID: 1079095082}
 --- !u!1 &1698477142
 GameObject:
@@ -25102,11 +25099,6 @@ PrefabInstance:
 --- !u!4 &1977117147 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2089824160505145039, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
-  m_PrefabInstance: {fileID: 1977117146}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &1977117148 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3419189034736769904, guid: 236b01c72aadf7148b541bfaf67eb57e, type: 3}
   m_PrefabInstance: {fileID: 1977117146}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1999259210
