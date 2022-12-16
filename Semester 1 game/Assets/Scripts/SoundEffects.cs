@@ -5,42 +5,65 @@ using UnityEngine.UI;
 
 public class SoundEffects : MonoBehaviour
 {
-    /*private float soundEffectVolume = 1f;
+    private float soundEffectVolume = 1f;
     public Slider sliderVolumeEffects;
     public AudioSource[] soundEffectAudioSource;
     // Start is called before the first frame update
-    public GameObject musicObject;
+    //public GameObject musicObject;
   
     // Start is called before the first frame update
     void Start()
     {
-        musicObject = GameObject.FindWithTag("GameMusic");
+       
 
 
         soundEffectVolume = PlayerPrefs.GetFloat("volume");
        
         
-        foreach (AudioSource audioSource in soundEffectAudioSource)
+        foreach (AudioSource audio in soundEffectAudioSource)
         {
-            audioSource = GetComponent<AudioSource>();
             soundEffectVolume = PlayerPrefs.GetFloat("volume");
-            sliderVolumeEffects.volume = soundEffectVolume;
+            audio.volume = soundEffectVolume;
             sliderVolumeEffects.value = soundEffectVolume;
 
         }
     }
-}
+
 
     // Update is called once per frame
     void Update()
     {
-        soundEffectAudioSource.volume = soundEffectVolume;
-        
+       
+        foreach (AudioSource audio in soundEffectAudioSource)
+        {
+            audio.volume = soundEffectVolume;
+            PlayerPrefs.SetFloat("volume", soundEffectVolume);
+
+        }
+
     }
 
     public void VolumeUpdate(float volume)
     {
         soundEffectVolume = volume;
     }
+    
+
+
+
+    /*[SerializeField] AudioSource[] SFXSource;
+    //[SerializeField] AudioSource SFXSource2;
+    [SerializeField] Slider SFXvolumeSlider;
+
+    public void Start()
+    {
+        foreach (AudioSource SFX in SFXSource)
+        {
+            SFX.volume = PlayerPrefs.GetFloat("sfxVol");
+            SFXvolumeSlider.value = SFX.volume;
+        }
+    }
     */
+
+
 }
