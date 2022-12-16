@@ -17,12 +17,12 @@ public class SoundEffects : MonoBehaviour
        
 
 
-        soundEffectVolume = PlayerPrefs.GetFloat("volume");
+        soundEffectVolume = PlayerPrefs.GetFloat("volumeEffect");
        
         
         foreach (AudioSource audio in soundEffectAudioSource)
         {
-            soundEffectVolume = PlayerPrefs.GetFloat("volume");
+            //soundEffectVolume = PlayerPrefs.GetFloat("volumeEffect");
             audio.volume = soundEffectVolume;
             sliderVolumeEffects.value = soundEffectVolume;
 
@@ -37,7 +37,7 @@ public class SoundEffects : MonoBehaviour
         foreach (AudioSource audio in soundEffectAudioSource)
         {
             audio.volume = soundEffectVolume;
-            PlayerPrefs.SetFloat("volume", soundEffectVolume);
+            PlayerPrefs.SetFloat("volumeEffect", soundEffectVolume);
 
         }
 

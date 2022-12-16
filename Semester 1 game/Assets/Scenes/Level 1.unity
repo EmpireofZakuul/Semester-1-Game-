@@ -2624,7 +2624,7 @@ PrefabInstance:
     - target: {fileID: 4097394579846200293, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: c2f5b76a35081524fb1c5476c6d50378, type: 3}
+      objectReference: {fileID: 8300000, guid: fa182f0b93e363e45a1bdb15ba222f8a, type: 3}
     - target: {fileID: 4097394579846200293, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: m_PlayOnAwake
       value: 0
@@ -2677,6 +2677,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6668729171793467852, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
+      propertyPath: jump
+      value: 
+      objectReference: {fileID: 8300000, guid: fa182f0b93e363e45a1bdb15ba222f8a, type: 3}
     - target: {fileID: 6668729171793467852, guid: a35b30b96b4e3e14a9ec5bdbf5c622b0, type: 3}
       propertyPath: playerJump
       value: 
